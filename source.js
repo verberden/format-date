@@ -18,7 +18,7 @@ module.exports = function formatDate({ src, options }) {
     'DD-MM-YYYY', 
     'YYYY-MM-DD', 
     'DD.MM.YYYY', 
-    'DD.MM.YYYY',
+    'YYYY.MM.DD ',
     "D MMMM YYYY",
     "DD MMMM YYYY",
     "DD MMM YYYY",
