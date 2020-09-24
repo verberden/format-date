@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test": "_mocha --reporter spec"
+  },
+  "dependencies": {
+    "dayjs": "^1.8.36",
+    "luxon": "^1.25.0",
+    "mocha": "^5.2.0",
+    "moment": "^2.29.0",
+    "moment-timezone": "^0.5.31",
+    "should": "^13.2.3"
+  },
+  "name": "format-date",
+  "version": "1.0.0",
+  "description": "Formate date to ISO 8601",
+  "main": "source.js",
+  "author": "S N",
+  "license": "ISC"
+}
