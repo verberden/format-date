@@ -30,12 +30,14 @@ describe('парсинг даты', () => {
 
   it('01: дата с таймзоной в ISO формате возвращается корректно', done => {
     const result = source_d({ src, options: 'date01' });
+
     result.should.be.instanceof(String).which.is.equal('2018-06-01T18:17:12.745+07:00');
     done();
   });
 
   it('02: дата UTC в ISO формате возвращается корректно', done => {
     const result = source_d({ src, options: 'date02' });
+
     result.should.be.instanceof(String).which.is.equal('2018-06-01T18:17:12.745Z');
     done();
   });
